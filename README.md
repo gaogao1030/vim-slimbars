@@ -1,7 +1,7 @@
-vim-slimbar
+vim-slibars
 ===
 
-slimbar syntax highlighting for vim.
+slibars syntax highlighting for vim.
 
 
 
@@ -16,14 +16,14 @@ Install with vbundle
         git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
         popd
 
-2. Configure your vimrc for Vundle. Here's a bare-minimum vimrc that enables vim-slimbar :
+2. Configure your vimrc for Vundle. Here's a bare-minimum vimrc that enables vim-slibars :
 
 
     ```vim
     set rtp+=~/.vim/bundle/vundle.vim
     call vundle#begin()
 
-    Plugin 'gaogao1030/vim-slimbar'
+    Plugin 'gaogao1030/vim-slibars'
     
     call vundle#end()
 
